@@ -6,10 +6,12 @@ MyFavList is a project that lets you add your favorite movies and store any info
 
 ## Environment Variables
 
-To run this project, you'll need to add your own OMDb API key to a .env file. Create a file named .env in the main directory and add the following line:
+To run this project, you'll need to add your own OMDb API key, TMDB API key and TMDB Token to a .env file. Create a file named .env in the main directory and add the following line:
 
 ```bash
-    API_KEY=yourAPIkeyhere
+    OMDB_KEY=yourAPIkeyhere
+    TMDB_KEY=yourAPIkeyhere
+    TMBD_TOKEN=yourToken
 ```
 
 
